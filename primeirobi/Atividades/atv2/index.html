@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade dois</title>
+</head>
+
+<body>
+    <h1> Página de Cadastro</h1>
+    <form action="">
+        <fieldset>
+
+
+            <legend>Crie sua conta</legend>
+            <label for="nome">Nome: </label>
+            <br>
+            <input type="text" id="nome" name="nome">
+
+            <br>
+            <label for="e">E-mail:</label>
+            <br>
+            <input type="email" id="e" placeholder="seue-mail@email.com" name ="email" required>
+            <br>
+            <label for="senha">Senha (Pelo menos oito caracteres):</label>
+            <br>
+            <input type="password" id="senha" minlength="8" name="s" required>
+            <br>
+            <label for="sexo"><strong>Gênero:</strong></label>
+            <br>
+            <input type="radio" id="masc" name="genero" value="M"><label for="masc">Masculino</label>
+            <br>
+            <input type="radio" id="fem" name="genero" value="F"><label for="fem">Feminino</label>
+            <br>
+            <label for="bio">Insira sua biografia aqui:</label>
+            <br>
+            <textarea id="bio" name = "bio" rows=5 placeholder="Escreva um pouco sobre você"></textarea>
+            <br>
+            <input type="checkbox" id="consentimento" name ="c" required><label for ="consentimento"> Concordo com os termos de Serviço</label>
+        </fieldset>
+        <input type="submit">
+
+
+
+
+
+    </form>
+</body>
+
+</html>
