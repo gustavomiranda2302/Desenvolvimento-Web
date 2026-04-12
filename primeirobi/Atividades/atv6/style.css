@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inputTarefa {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    box-shadow: cadetblue 0px 4px 8px;
+}
+.listaTarefas {
+    list-style-type:decimal;
+    padding: 0;
+    width: 300px;
+}
