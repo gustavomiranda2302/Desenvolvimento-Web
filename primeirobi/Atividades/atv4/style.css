@@ -2,6 +2,13 @@
         margin: 0;
         padding: 0;
     }
+        body {
+        display: grid;
+        grid-template-areas:
+            "header" "main" "footer";
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+    }
 
     header {
         grid-area: header;
@@ -19,14 +26,14 @@
         font-size: 1.2rem;
         text-decoration: none;
     }
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
 
-    body {
-        display: grid;
-        grid-template-areas:
-            "header" "main" "footer";
-        grid-template-columns: 1fr;
-        min-height: 100vh;
     }
+
+
 
     main {
         grid-area: main;
@@ -54,12 +61,7 @@
         border-radius: 8px;
     }
 
-    nav ul {
-        display: flex;
-        list-style: none;
-        gap: 20px;
-
-    }
+    
 
     @media (max-width: 760px) {
 
@@ -94,8 +96,4 @@
 
     aside ul {
         list-style: none;
-    }
-
-    article {
-        padding: 20px;
     }
