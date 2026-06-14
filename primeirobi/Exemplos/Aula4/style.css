@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(38, 18, 182);
+}
+
+.relative{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+.absolute{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    left: 180px;
+    top: 150px;
+    z-index: 2;
+}
+
+
+.absolute2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(226, 255, 4);
+    position: absolute;
+    left: 180px;
+    top: 150px;
+    transition: opacity 2s;
+    z-index: 1;
+     
+}
+.absolute2:hover{
+    opacity: 50%;
+
+}
+.fixed{
+    height: 100px;
+    width: 160px;
+    background-color: rgb(1, 200, 255);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}

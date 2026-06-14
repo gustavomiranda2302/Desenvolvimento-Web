@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    length: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    background-color: green;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    
+    height: 50%;
+    text-decoration: underline;
+    text-decoration-color: rgb(246, 246, 246);
+}
+
+
+.btn{
+   height: 50px;
+    padding: 10px 20px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    box-shadow: rgb(5, 36, 236);
+}
+.input-name :focus{
+    outline nome;
+    border-color: yellow;
+    background-color: salmon;
+}
+
+
+
+#fio{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 50%;
+    padding: 4px;
+    border: 6px;
+
+    margin-bottom: 20px;
+}
+
+h1{
+    color: rgb(100, 30, 30);
+    text-align: center;
+}
